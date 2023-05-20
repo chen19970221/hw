@@ -1,0 +1,134 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+.box{
+    width: 2000px;
+    background: #fff;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 0 300px;
+   
+}
+
+.card{
+    width: 416px;
+    height: 570px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 24px;
+    
+}
+.pic{
+    width: 100%
+}
+.pic img {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 20px 20px 0 0;
+}
+h2{
+    font-size: 20px;
+    font-family: 'Noto Sans TC';
+    font-style: normal;
+    font-weight: 900;
+    margin-bottom: 12px;
+}
+.text{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    height: 108px;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    
+
+}
+.text1{
+    color: #525252;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 20px;
+}
+
+.ai-text{
+    display: inline;
+}
+
+
+.ai{
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.hashtag{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-radius: 0 0 20px 20px;
+
+}

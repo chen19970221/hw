@@ -1,0 +1,23 @@
+h1{
+    color: gray ;
+    font-size: 42px ;
+    border: 1px solid
+}
+.style1{
+    color: green;
+    font-size: 20px;
+    line-height: 2;
+    line-height:32pt;
+}
+    
+a{
+    color: black
+    
+}
+a:hover{
+    color:blue
+}
+
+.style2{
+    color:brown
+}

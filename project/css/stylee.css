@@ -1,0 +1,36 @@
+h1{
+    color:blue;
+}
+.zero{
+    font-size: 16px;
+    text-align: left;
+    text-indent: 32px;
+}
+
+ol{
+    line-height: 1.5;
+}
+
+ul{
+    line-height: 1.5;
+}
+
+a{
+    color:red;
+}
+
+h2{
+    border-bottom: 5px solid red;
+    border-left: 5px solid red;
+}
+.two{
+    text-decoration:line-through
+}
+
+.img{
+    border: 5px solid gray;
+}
+
+.img:hover{
+    border: 5px solid pink;
+}
